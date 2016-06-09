@@ -15,6 +15,8 @@
 		6A433B401D09EDCC00778CBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A433B3E1D09EDCC00778CBE /* LaunchScreen.storyboard */; };
 		6A433B4B1D09EDCC00778CBE /* GoWithUncleRoofTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A433B4A1D09EDCC00778CBE /* GoWithUncleRoofTests.m */; };
 		6A433B561D09EDCC00778CBE /* GoWithUncleRoofUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A433B551D09EDCC00778CBE /* GoWithUncleRoofUITests.m */; };
+		6A433B661D09EE9800778CBE /* JKEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A433B651D09EE9800778CBE /* JKEvent.m */; };
+		6A433B6A1D09EEC000778CBE /* JKEventTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A433B691D09EEC000778CBE /* JKEventTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		6A433B511D09EDCC00778CBE /* GoWithUncleRoofUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoWithUncleRoofUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A433B551D09EDCC00778CBE /* GoWithUncleRoofUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoWithUncleRoofUITests.m; sourceTree = "<group>"; };
 		6A433B571D09EDCC00778CBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A433B641D09EE9800778CBE /* JKEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKEvent.h; sourceTree = "<group>"; };
+		6A433B651D09EE9800778CBE /* JKEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKEvent.m; sourceTree = "<group>"; };
+		6A433B691D09EEC000778CBE /* JKEventTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKEventTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +106,7 @@
 		6A433B2F1D09EDCC00778CBE /* GoWithUncleRoof */ = {
 			isa = PBXGroup;
 			children = (
+				6A433B631D09EE3500778CBE /* Model */,
 				6A433B331D09EDCC00778CBE /* AppDelegate.h */,
 				6A433B341D09EDCC00778CBE /* AppDelegate.m */,
 				6A433B361D09EDCC00778CBE /* ViewController.h */,
@@ -125,6 +131,7 @@
 		6A433B491D09EDCC00778CBE /* GoWithUncleRoofTests */ = {
 			isa = PBXGroup;
 			children = (
+				6A433B681D09EEA100778CBE /* Model */,
 				6A433B4A1D09EDCC00778CBE /* GoWithUncleRoofTests.m */,
 				6A433B4C1D09EDCC00778CBE /* Info.plist */,
 			);
@@ -138,6 +145,23 @@
 				6A433B571D09EDCC00778CBE /* Info.plist */,
 			);
 			path = GoWithUncleRoofUITests;
+			sourceTree = "<group>";
+		};
+		6A433B631D09EE3500778CBE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6A433B641D09EE9800778CBE /* JKEvent.h */,
+				6A433B651D09EE9800778CBE /* JKEvent.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6A433B681D09EEA100778CBE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6A433B691D09EEC000778CBE /* JKEventTests.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,6 +297,7 @@
 				6A433B381D09EDCC00778CBE /* ViewController.m in Sources */,
 				6A433B351D09EDCC00778CBE /* AppDelegate.m in Sources */,
 				6A433B321D09EDCC00778CBE /* main.m in Sources */,
+				6A433B661D09EE9800778CBE /* JKEvent.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +305,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A433B6A1D09EEC000778CBE /* JKEventTests.m in Sources */,
 				6A433B4B1D09EDCC00778CBE /* GoWithUncleRoofTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
